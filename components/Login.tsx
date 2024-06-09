@@ -6,14 +6,14 @@ const LoginPage = () => {
     <div className="flex flex-col lg:flex-row h-screen">
       <div className="lg:w-1/2">
         {/* <Image src={'/images/login.jpg'} alt="Login" width={500} height={500} /> */}
-        <div className="bg-black/70 w-full h-64 lg:h-full flex items-center justify-center">
-          <h1 className="text-6xl font-bold text-white text-center">
+        <div className="bg-black w-full h-64 lg:h-full flex items-center justify-center">
+          <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-center">
             Welcome to Debesis
           </h1>
         </div>
       </div>
       <div className="flex flex-col gap-6 items-center justify-center w-full lg:w-1/2 p-6 bg-gradient-to-tr from-blue-300 via-black to-blue-300">
-        <form className="flex flex-col gap-2 w-full max-w-sm bg-white/20 rounded-lg shadow-white shadow-md backdrop-blur-sm p-4">
+        <form className="flex flex-col gap-2 w-full max-w-sm bg-white/20 rounded-lg shadow-white shadow-md backdrop-blur-sm p-4 bg-no-repeat bg-[20px]">
           <h1 className="text-3xl font-bold text-gray-800 text-center">
             Welcome back
           </h1>
