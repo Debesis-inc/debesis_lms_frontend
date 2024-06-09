@@ -7,7 +7,9 @@ const LoginPage = () => {
       <div className="lg:w-1/2">
         {/* <Image src={'/images/login.jpg'} alt="Login" width={500} height={500} /> */}
         <div className="bg-black/70 w-full h-64 lg:h-full flex items-center justify-center">
-          {/* You can add any overlay content here if needed */}
+          <h1 className="text-6xl font-bold text-white text-center">
+            Welcome to Debesis
+          </h1>
         </div>
       </div>
       <div className="flex flex-col gap-6 items-center justify-center w-full lg:w-1/2 p-6 bg-gradient-to-tr from-blue-300 via-black to-blue-300">
