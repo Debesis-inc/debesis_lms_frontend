@@ -15,11 +15,9 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { authConnect } from "@/lib/utils";
 
-const formSchema = z.object({
-  username: z.string()
-});
-
+const formSchema = authConnect("sign-in");
 // interface 
 interface CustomInputProps {
   control: Control<z.infer<typeof formSchema>>;
@@ -27,8 +25,6 @@ interface CustomInputProps {
   name: FieldPath<z.infer<typeof formSchema>>;
   placeholder: string;
 }
-
-
 
 const CustomInput = ({ control, label, name, placeholder }: CustomInputProps) => {
   return (
