@@ -76,6 +76,9 @@ const SignIn = (type: string) => {
           ligula in nulla luctus. Vestibulum ante ipsum primis in faucibus orci
           luctus et ultrices posuere cubilia Curae; Nullam nec felis nec nunc
           fringilla lacinia. Proin ut felis non justo tincidunt tincidunt.
+          {/* <div>
+            <img src='..assets/pic-person-01.jpg' alt='hero' className='w-full h-full'/>
+          </div> */}
         </p>
       </div>
     </div>
