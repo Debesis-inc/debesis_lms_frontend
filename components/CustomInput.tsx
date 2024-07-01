@@ -21,7 +21,7 @@ const formSchema = authConnect("sign-in");
 // interface 
 interface CustomInputProps {
   control: Control<z.infer<typeof formSchema>>;
-  label: string;
+  label?: string;
   name: FieldPath<z.infer<typeof formSchema>>;
   placeholder: string;
 }
