@@ -21,9 +21,16 @@ const SignIn = (type: string) => {
   };
 
   return (
-    <div className='flex justify-between w-full gap-6 mx-6'>
+    <div className='lg:flex
+     justify-between gap-6 mx-6 overflow-hidden '>
       <Form {...form}>
-        <form className='bg-gray-500 py-8 px-3 w-1/2' onSubmit={form.handleSubmit(onSubmit)}>
+                
+        <form className=' flex flex-col gap-5 px-3 w-1/2  ' onSubmit={form.handleSubmit(onSubmit)}>
+        <div className='text-3xl font-bold text-center'>Sign In</div>
+        <p className='text-2xl font-semibold  '>
+          Unlock learning with Debesis
+        </p>
+          
           <CustomInput
             control={form.control}
             label="Email"
@@ -43,7 +50,7 @@ const SignIn = (type: string) => {
           </div>
         </form>
       </Form>
-      <div className='py-8 px-3'>
+      <div className='py-8 px-3 w-1/2 bg-orange-700 rounded-lg my-8 mx-6'>
         <div className='text-2xl font-bold'>Welcome!</div>
         <p className='text-lg'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
