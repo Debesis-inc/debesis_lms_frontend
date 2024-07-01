@@ -28,7 +28,9 @@ const SignIn = (type: string) => {
       <Form {...form}>
 
         <form className=' flex flex-col gap-5 px-3 w-1/2 mx-40 ' onSubmit={form.handleSubmit(onSubmit)}>
-          <div className='text-3xl font-bold text-center'>Sign In</div>
+          <div className='text-lg font-bold  bg-orange-700 p-2 w-fit text-white'>
+            <div className='mt-6'>Debesis</div>
+          </div>
           <p className='text-2xl font-semibold  '>
             Unlock learning with Debesis
           </p>
@@ -69,16 +71,14 @@ const SignIn = (type: string) => {
             </div>
         </form>
       </Form>
-      <div className='py-8 px-3 w-1/2 bg-orange-700 rounded-lg my-8 mx-6'>
+      <div className='py-8 px-3 w-1/2 bg-orange-700 rounded-lg my-8 mx-6 h-fit'>
         <div className='text-2xl font-bold'>Welcome!</div>
-        <p className='text-lg'>
+        <p className='text-lg p-2'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
           ligula in nulla luctus. Vestibulum ante ipsum primis in faucibus orci
           luctus et ultrices posuere cubilia Curae; Nullam nec felis nec nunc
           fringilla lacinia. Proin ut felis non justo tincidunt tincidunt.
-          {/* <div>
-            <img src='..assets/pic-person-01.jpg' alt='hero' className='w-full h-full'/>
-          </div> */}
+         
         </p>
       </div>
     </div>
