@@ -1,9 +1,7 @@
-import LoginPage from "@/components/Login";
-
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <LoginPage />
-    </div>
+    <div>Home</div>
   );
 }
+
+export default Home
